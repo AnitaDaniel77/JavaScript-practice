@@ -60,7 +60,6 @@ class Person {
     }
 }
 
-
 // Anita class extends Person — this means Anita inherits everything from Person
 // extends sets up the inheritance relationship
 class Anita extends Person {
@@ -97,4 +96,10 @@ var vito = new Vito();
 // Call greet() on anita — runs Person's greet() first then Anita's message
 anita.greet();
 // Output:
-// Hell
+// Hello!
+// I am Anita, Java Trainee at Capitec.
+
+// Call greet() on vito — runs only Vito's version, parent method is not called
+vito.greet();
+// Output:
+// Hey, I am Vito!
