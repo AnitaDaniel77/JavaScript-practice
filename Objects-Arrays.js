@@ -29,3 +29,6 @@ favCar.convertible = true;
 
 // Task 9: Log the entire favCar object
 console.log(favCar); // {color: 'Black', convertible: true}
+
+
+
